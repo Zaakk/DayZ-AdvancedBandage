@@ -2,7 +2,7 @@ modded class ActionBandageBase
 {
 	override void ApplyBandage(ItemBase item, PlayerBase player)
 	{
-		autoptr BleedingSourceManagerServer bleedingManager;
+		autoptr BleedingSourcesManagerServer bleedingManager;
 		bleedingManager = player.GetBleedingManagedServer();
 		
 		if (!bleedingManager)
